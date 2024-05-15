@@ -12,10 +12,9 @@ public class exercicio06 {
            System.out.println( " escreva mais um numero");
            double numero3 = scan.nextDouble();
          
-           Double soma = numero1 + numero2 + numero3/3 ;
+           Double soma = numero1+numero2+numero3%3;
           
            System.out.println( " a soma dos numeros é" + soma );
            scan.close();
-
     }
 }

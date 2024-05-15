@@ -39,6 +39,7 @@ public class exercicio11 {
     System.out.println("Ano carro: ");
     int anoc = scan.nextInt();
     System.out.println("Cor carro: ");
+    scan.nextLine();
     String corc= scan.nextLine();
 
     Carro carro1 = new Carro(marcc, modelc, anoc, corc);

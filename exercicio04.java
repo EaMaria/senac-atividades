@@ -8,8 +8,7 @@ public class exercicio04 {
             char c = scan.next().charAt(0);
            a = a.replace(b,c);
            System.out.println(a);
-           scan.close();
-                
+           scan.close();  
             }
         }
     

@@ -13,7 +13,5 @@ public class exercicio08 {
           }
           System.out.println(c);
           scan.close();
-
-
     }
 }
